@@ -20,6 +20,13 @@ Task for WEC Recruitment
   ```bash
     pip install -r requirements.txt
     ```
+- Make a .env file and add the following:
+```bash
+API_KEY=AIzaSyAjL6Y53XgLBOn9WXfqb2T1C1eaCRxkBCg
+GOOGLE_APPLICATION_CREDENTIALS="client_secret_179152695557-v5o65e7tfd3e3mt4ucof3f9g3c7qmtot.apps.googleusercontent.com.json"
+```
+(will remove this commit later)
+
 - Run the rag_fast_api.py file. Go to `http://localhost:8000/docs` to see the working of the API.
 
 2. React application
