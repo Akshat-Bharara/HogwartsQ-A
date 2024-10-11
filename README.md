@@ -2,13 +2,41 @@
 
 Task for WEC Recruitment
 
-## To make things easy
-- Demo video : 
+## Demo videos
+- [FastAPI Demo Video](https://www.loom.com/share/e265a9ad0c7c48e5ba848b016e5f00ec?sid=915fb459-6c7a-4c54-9883-2d1e3bd63f8d)  
+  This video demonstrates the backend functionalities implemented using FastAPI.
+
+- [React App Demo Video](https://www.loom.com/share/5c85d7fa9e874a4e8be1094b1ad7d928?sid=31b38af2-8455-4531-a077-234212a9ea6f)  
+  This video showcases the frontend of the application built using React.
 
 ## To access app 
-- 
+1. FastAPI
+- Download the folder/clone the repo.
+  ```bash
+    https://github.com/Akshat-Bharara/HogwartsQ-A.git
+    cd HogwartsQ-A
+    ```
+- Install the dependencies
+  ```bash
+    pip install -r requirements.txt
+    ```
+- Run the rag_fast_api.py file. Go to `http://localhost:8000/docs` to see the working of the API.
 
-
+2. React application
+- Go to the react app directory
+  ```bash
+    cd react-app
+    ```
+- Install node modules
+  ```bash
+    npm install
+    ```
+- Run the app
+  ```bash
+    npm start
+    ```
+- The React app will be running at `http://localhost:3000`
+  
 ## Technologies Used
 - FastAPI
 - Python
