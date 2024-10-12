@@ -60,7 +60,7 @@ GOOGLE_APPLICATION_CREDENTIALS="client_secret_179152695557-v5o65e7tfd3e3mt4ucof3
 - Pre-trained Embedding Model: The all-MiniLM-L6-v2 model from Sentence Transformers is used to generate dense vector representations of each text chunk. These embeddings capture the semantic meaning of the text for better retrieval.
 
 ### Vector Database integration
-- Efficient Retrieval: The embeddings are stored in a vector database like ChromaDB, FAISS, or Milvus for fast similarity searches. This enables quick lookups of contextually relevant text during query handling.
+- Efficient Retrieval: The embeddings are stored in a vector database like FAISS for fast similarity searches. This enables quick lookups of contextually relevant text during query handling.
 
 ### Query Handling & Retrieval
 - Embedding-based Search: User queries are processed using the embedding model. The query is converted into an embedding and matched against the database to retrieve the top N most relevant text chunks.
